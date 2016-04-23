@@ -68,6 +68,9 @@ if test -d $mbin
     set PATH $mbin $PATH
 end
 
+npm config set prefix '~/.npm-global'
+set PATH ~/.npm-global/bin $PATH
+
 # Aliases
 # -------
 
