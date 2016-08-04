@@ -1,3 +1,3 @@
 function fish_greeting
-    fortune | cowsay
+    /home/mauricio/Documents/projects/all/gre/vocabulary/random_gre.sh
 end
