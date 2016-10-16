@@ -26,6 +26,7 @@ alias l='ls -CF'
 # Aliases
 # -------
 
+alias def   'sdcv'
 alias ack   'ack --color-match=bright_red --color-line=green'
 alias ag    'ag --color-match="1;3;35" --color-line-number="32" --color-path="3;32;1" --column -S'
 alias agc   'ag --color-match="1;3;35" --color-line-number="32" --color-path="3;32;1" --column --stats -S -C 2'

@@ -40,7 +40,8 @@ set -U mlib     /home/mauricio/Documents/code/lib
 set -U gems     /home/mauricio/.gem/ruby/2.3.0/bin
 set -U rootgems /root/.gem/ruby/2.3.0/bin
 
-set -U fish_user_paths $mbin $gems  $fish_user_paths
+# set -U fish_user_paths $mbin $gems $fish_user_paths
+set -U fish_user_paths $mbin $fish_user_paths
 npm config set prefix '~/.npm-global'
 
 # History
