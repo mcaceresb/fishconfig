@@ -30,14 +30,13 @@ set -U __fish_git_prompt_char_upstream_behind '↓'
 # Path to projects
 # ----------------
 
-set -U doyle    /home/mauricio/Documents/projects/ra/doyle/projects
-set -U install  /home/mauricio/Documents/code/lib/install-arch.md
-set -U projects /home/mauricio/Documents/projects
-set -U dotvim   /home/mauricio/Documents/code/dotvim
-set -U mbin     /home/mauricio/Documents/code/bin
-set -U mlib     /home/mauricio/Documents/code/lib
+set -U install  $HOME/Documents/code/lib/install-arch.md
+set -U projects $HOME/Documents/projects
+set -U dotvim   $HOME/Documents/code/dotvim
+set -U mbin     $HOME/Documents/code/bin
+set -U mlib     $HOME/Documents/code/lib
 
-set -U gems     /home/mauricio/.gem/ruby/2.3.0/bin
+set -U gems     $HOME/.gem/ruby/2.3.0/bin
 set -U rootgems /root/.gem/ruby/2.3.0/bin
 
 # set -U fish_user_paths $mbin $gems $fish_user_paths

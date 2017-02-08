@@ -1,11 +1,17 @@
 [Background]
 Color=0,0,0
 
+[BackgroundFaint]
+Color=0,0,0
+
 [BackgroundIntense]
 Color=invalid
 color=34,34,34
 
 [Color0]
+Color=0,0,0
+
+[Color0Faint]
 Color=0,0,0
 
 [Color0Intense]
@@ -14,10 +20,16 @@ Color=186,186,186
 [Color1]
 Color=164,67,67
 
+[Color1Faint]
+Color=164,67,67
+
 [Color1Intense]
 Color=195,108,108
 
 [Color2]
+Color=61,193,61
+
+[Color2Faint]
 Color=61,193,61
 
 [Color2Intense]
@@ -26,10 +38,16 @@ Color=68,203,68
 [Color3]
 Color=164,164,67
 
+[Color3Faint]
+Color=164,164,67
+
 [Color3Intense]
 Color=195,195,108
 
 [Color4]
+Color=67,67,164
+
+[Color4Faint]
 Color=67,67,164
 
 [Color4Intense]
@@ -38,10 +56,16 @@ Color=134,156,245
 [Color5]
 Color=164,67,164
 
+[Color5Faint]
+Color=164,67,164
+
 [Color5Intense]
 Color=195,108,195
 
 [Color6]
+Color=67,164,164
+
+[Color6Faint]
 Color=67,164,164
 
 [Color6Intense]
@@ -50,10 +74,16 @@ Color=92,206,221
 [Color7]
 Color=224,224,224
 
+[Color7Faint]
+Color=224,224,224
+
 [Color7Intense]
 Color=255,255,255
 
 [Foreground]
+Color=255,255,255
+
+[ForegroundFaint]
 Color=255,255,255
 
 [ForegroundIntense]
@@ -61,5 +91,5 @@ Color=255,255,255
 
 [General]
 Description=Ciembor
-Opacity=0.76000000000000001
+Opacity=0.76
 Wallpaper=

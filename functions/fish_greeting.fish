@@ -1,3 +1,3 @@
 function fish_greeting
-    /home/mauricio/Documents/projects/all/gre/vocabulary/random_gre.sh
+    $HOME/Documents/projects/code/gre-cli-words/random_gre.sh
 end
