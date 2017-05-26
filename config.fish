@@ -21,11 +21,14 @@ alias egrep 'egrep --color=auto'
 # some more ls aliases
 alias ll 'ls -alFh'
 alias la 'ls -A'
-alias l  'ls -CF'
+# alias l  'ls -CF'
+alias l  'ls -lhF'
 
 # Aliases
 # -------
 
+alias mssh  'ssh -i ~/.ssh/id_rsanp -Y'
+alias kvim  'konsole --profile "vim" -e nvim &'
 alias def   'sdcv'
 alias ack   'ack --color-match=bright_red --color-line=green'
 alias ag    'ag --color-match="1;3;35" --color-line-number="32" --color-path="3;32;1" --column -S'

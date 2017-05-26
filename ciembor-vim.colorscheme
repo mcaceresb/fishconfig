@@ -1,18 +1,18 @@
 [Background]
-Color=0,0,0
+Color=40,44,52
 
 [BackgroundFaint]
-Color=0,0,0
+Color=40,44,52
 
 [BackgroundIntense]
-Color=invalid
+Color=40,44,52
 color=34,34,34
 
 [Color0]
-Color=0,0,0
+Color=40,44,52
 
 [Color0Faint]
-Color=0,0,0
+Color=40,44,52
 
 [Color0Intense]
 Color=186,186,186
@@ -90,6 +90,6 @@ Color=255,255,255
 Color=255,255,255
 
 [General]
-Description=Ciembor
-Opacity=0.76
-Wallpaper=/home/mauricio/Pictures/walls/nice/dark-pattern-2.jpg
+Description=CiemborVim
+Opacity=0.95
+Wallpaper=

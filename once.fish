@@ -30,17 +30,18 @@ set -U __fish_git_prompt_char_upstream_behind '↓'
 # Path to projects
 # ----------------
 
-set -U install  $HOME/Documents/code/lib/install-arch.md
-set -U projects $HOME/Documents/projects
-set -U dotvim   $HOME/Documents/code/dotvim
-set -U mbin     $HOME/Documents/code/bin
-set -U mlib     $HOME/Documents/code/lib
+set -U install  $HOME/code/lib/install-arch.md
+set -U dotvim   $HOME/code/dotvim
+set -U mbin     $HOME/code/bin
+set -U mlib     $HOME/code/lib
 
-set -U gems     $HOME/.gem/ruby/2.3.0/bin
-set -U rootgems /root/.gem/ruby/2.3.0/bin
+set -U gems     $HOME/.gem/ruby/2.4.0/bin
+set -U rootgems /root/.gem/ruby/2.4.0/bin
 
-# set -U fish_user_paths $mbin $gems $fish_user_paths
-set -U fish_user_paths $mbin $fish_user_paths
+set -U fish_user_paths $mbin $gems
+# set -U fish_user_paths $gems $fish_user_paths
+# set -U fish_user_paths $mbin $fish_user_paths
+# set -U fish_user_paths $mbin $gems
 npm config set prefix '~/.npm-global'
 
 # History
